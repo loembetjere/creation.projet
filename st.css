@@ -1,0 +1,464 @@
+*,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+header{
+  top: 0;
+  left: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+main{
+  margin-top: 100px;
+}
+
+.div-content{
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lap{
+    color: #FCD116;
+    height: 60px;
+    width: 50px;
+}
+.h{
+  color:#FCD116 ;
+}
+
+
+
+.img-laptop{
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 8px;   
+}
+
+.img-phone{
+    margin-left: 10px;
+    display: flex;
+
+    align-items: center;
+    height: auto;
+   
+}
+
+.img-houre{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.div-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    span{ font-size: 1.4rem;
+    }
+}
+.button1{
+    background-color:  #FCD116;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.button1:hover{
+  background-color: #fff;
+  transition: all 0,8s;
+}
+
+.technicien{
+  background-image: url(./Image1/male-technician-examining-mother-board-with-digital-multimeter.jpg);
+  text-align: center;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.nav-content{
+  gap: 50px;
+  margin: auto;
+  
+}
+.nav-content ul li{
+  display: block;
+  padding: 2px;
+  background-color: #fff;
+  
+}
+h1{
+  color: white;
+  box-shadow: 0px 2px 18px 10px beige;
+  font-weight: bold;
+  font-size: 3.4rem;
+  text-align: center;
+  width: 70%;
+  margin: 30px auto;
+
+}
+.p3{
+  color: #fff;
+  font-size: 1.5rem;
+
+}
+ul{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+li a{
+  text-decoration: none;
+  word-spacing: 10px;
+  font-size: 2.3rem;
+}
+
+.active{
+  color: red;
+}
+
+
+
+.test{
+  display: flex;
+  border: 1px solid black;
+  padding: 10px 30px;
+  gap: 10px;
+  width: fit-content;
+}
+.SEND{
+  padding: 20px 0;
+}
+.btn{
+  padding: 10px 30px;
+}
+.maps{
+  height: 50px;
+}
+.whatsp{
+  height: 50px;
+
+}
+
+.position a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+.position{
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  bottom: 20%;
+}
+.position:hover{
+  cursor: pointer;
+  transition: all .3s;
+  margin-left: 1rem;
+
+
+}
+
+
+form{
+  position: relative;
+  left: 15px;
+  margin: 0 auto;
+
+
+}
+
+
+.bpt{
+  padding: 10px 30px;
+  width: 60%;
+}
+
+.information{
+  box-shadow: 0 0 5px 0 rgb(22, 21, 21);
+  height: 400px;
+  width: auto;
+  
+}
+
+.bloc1{
+ box-shadow: 1px -1px 13px 3px rgb(22, 21, 21);
+ width: 1000px;
+  height: 400px;
+  margin: 50px auto;
+
+}
+
+.content-info{
+  display: flex;
+}
+.image-carte{
+  height: 400px;
+  
+  
+}
+.contact-form{
+  position: relative;
+  width: 300px;
+  padding: 20px;
+
+}
+.contact-form input{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.contact-form textarea{
+   width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.contact-form button{
+    background-color: rgb(8, 179, 247);
+      cursor: pointer;
+      width: 100%;
+      color: white;
+      padding: 10px;
+      align-items: center;
+}
+h3{
+  text-align: center;
+ font-size: 1.6rem;
+  color:#FCD116;
+  padding-bottom: 20px;
+}
+h4{
+   text-align: center;
+   font-size: 1.6rem;
+   color:#FCD116;
+
+}
+.ol-zoom{
+   top: -24rem;
+  left: 0.4rem;
+
+    position: relative;
+    pointer-events: auto;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    width: 2em;
+}
+.ol-zoom-in{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 4px;
+}
+.ol-zoom-out{
+   width: 50px;
+    height: 50px;
+  
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.p19{
+   font-size: 1.4rem;
+
+}
+#cont{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+.carte{
+  position:relative;
+}
+.p1{
+  text-align: center;
+}
+.contact{
+  text-align: justify;
+  padding: 10px;
+  
+}
+.contact-suivant{
+  flex-wrap: wrap;
+}
+.Subscribe-box{
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+
+}
+.Subscribe-box input{
+  flex: 1;
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+ 
+  
+}
+.Subscribe-box button{
+  padding: 0 10px;
+  font-weight: 700;
+   cursor: pointer;
+  background-color: #838080c7;
+  border: none;
+  border-left: 1px solid black;
+}
+.Subscribe-box button:hover{
+  background-color: #FCD116;
+  transition: all 0.9s;
+  color: black;
+}
+.Subscribe-box{
+  width: 50%;
+  margin: auto;
+}
+
+.contact-form{
+  flex: 1;
+  height: 400px;
+  
+}
+
+.p7{
+  padding: 20px 0;
+  text-align: center;
+    font-size: 2.3rem;
+    color: #FCD116;
+
+}
+
+
+.ligne-droite{
+    padding: 0 30px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.face{
+    height: 32px;
+    width: 32px;
+}
+.p6{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.p15{
+    color: white;
+    font-size: 1.5rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    display: block;
+    justify-content: space-around;
+}
+.foot{
+    margin: 20px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+  .Subscribe-box{
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 10px;
+  }
+  .div-2 h2, .div1, .info-heure{
+        display: none;
+        
+    }
+    
+  
+}
+
+@media screen and (max-width:1000px) {
+  .bloc1 .content-info{
+    flex-direction: column;
+    height: 800px;
+  }
+  .contact-form{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .rapide{
+    flex-direction: column;
+    align-content: center;
+  }
+  .ipad-image{
+    flex-direction: column;
+    display: block;
+    align-content: center;
+  }
+  .foot{
+    flex-direction: column;
+    text-align: center;
+    
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+  }
+  .contact{
+  text-align: center;
+  }
+  h3{
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+  h4{
+    margin: 20px 0;
+  }
+
+  .p19{
+    margin-bottom: 20px;
+  }
+  .tv{
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+  }
+  .image-phone{
+    width: 60%;
+    flex-direction: column;
+    margin: 20px
+    auto;
+    gap: 20px
+    ;
+  }
+  .content-info{
+    width: 400px;
+  }
+  .image-carte{
+    width: 500px;
+  }
+  .bloc1{
+    width: 400px;
+  }
+}
